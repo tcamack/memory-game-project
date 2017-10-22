@@ -1,0 +1,81 @@
+* {/*arial for all*/
+  font-family: arial;
+}
+
+body {
+  background: url('../img/geometry2.png');
+}
+
+h1 {
+  text-align: center;
+}
+
+div#memoryBoard {/*game board*/
+	background: url('../img/background.png') no-repeat;
+	border: #999 1px solid;
+  border-radius: 30px;
+	width: 600px;
+	height: 600px;
+	padding: 24px;
+	margin: 0px auto;
+}
+div#memoryBoard > div {/*game tiles*/
+	background: url('../img/tile_bg.png') no-repeat;
+	border-style: outset;
+  border-radius: 20px;
+	width: 82.5px;
+	height: 82.5px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	font-size: 80px;
+  font-weight: 600;
+	cursor: pointer;
+	text-align: center;
+}
+
+div#memoryBoard > div:hover {/*change border radius on tile hover, give user feedback*/
+  border-radius: 10px
+}
+
+div#memoryBoard > div:active {/*change tile border to look inset on click*/
+  border-style: inset;
+}
+
+.reset {/*reset button*/
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+p {/*changes data information in modal and on screen*/
+  display: flex;
+  font: arial;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+}
+
+.modal {/*modal background*/
+  display: none;/*hidden by default*/
+  position: fixed;
+  z-index: 1;/*top layer*/
+  left: 0;/*display in middle*/
+  top: 0;/*display in middle*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4); /*used rgba instead of hex for easy transparency*/
+}
+
+.modal-content {/*modal content*/
+  text-align: center;
+  background-color: #fefefe;
+  margin: 15% auto; /*15% from the top, centered*/
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 30px;
+  width: 50%;
+}
