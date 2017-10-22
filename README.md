@@ -9,7 +9,7 @@ The game board is made up of 16 tiles randomly arranged in a grid.  They rearran
 5. The game ends once all matching tiles have been revealed
 
 # Resources used to create this game
-## Array Shuffle (modified)
+## Array Shuffle
 -https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 ## Modal
