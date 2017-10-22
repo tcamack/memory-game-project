@@ -1,5 +1,5 @@
 # Udacity Memory Game Project
-The game board is made up of 16 tiles randomly arranged in a grid.  They rearrange randomly every time the game is reset or the page is reloaded.
+The game board is made up of 16 tiles randomly arranged in a grid.  They rearrange every time the game is reset or the page is reloaded.
 
 ## How to Play
 1. The player flips over one tile to reveal it's letter
